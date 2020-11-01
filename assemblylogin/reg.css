@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /*background: url(bgimage.jpg)no-repeat;*/
+    background-color: #DCDCDC;
+    background-size: cover;
+    }
+    .rgister-box{
+      margin-top: 150px;
+      margin-left: 70;
+        justify-content: center;
+        width: 400px;
+        position: sticky;
+        
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+        color: white;
+      
+      }
+      
+      .textbox {
+     
+      margin-left: 200px;
+      width: 400px;
+      
+      overflow:hidden;
+      font-size: 20 px;
+      padding: 8px 0;
+      
+      border-bottom: 1px  solid 	#FF8C00;
+      }
+      .rgister-box input{
+      border: none;
+      outline: none;
+      background: none;
+      color: rgb(255, 153, 0);
+      font-weight: bold;
+      font-size: 25px;
+      float: center ;
+     
+      }
+      .rgister-box a{
+        color: #FF8C00;
+        border-radius: 20px;
+        margin-right: 100px;
+      }
+        #relog a{
+            color:blue;
+            font-weight: heavy;
+            padding:10px;
+          
+          }
+          #relog {
+            font-size: 28px;
+            margin-left: 40px;
+            
+            
+            margin-top: 20px;
+            margin-bottom: 20px;
+            line-height: 30px;
+          
+            float: center;
+          }
+         
+         #relog a:hover{
+           color: #FF8C00;
+           transition-duration: 0.3s;
+         }
+        

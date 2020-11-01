@@ -1,0 +1,54 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+
+}
+.top{
+    text-decoration: none;
+    display: flex;
+    background-color:whitesmoke;
+    box-shadow: gray;
+    font-size: 40px;
+}
+.top a{
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+    font-size:40px;
+    background-attachment: fixed;
+    background-color:none;
+}
+.material{
+    background-color:none;
+    font-family: serif;
+    width:600px;
+    float: left;
+}
+.material ol{
+    font-size:30px;
+    font-family: Cochin;
+
+}
+.top a:hover{
+    background-color: #ff9800;
+    transition-delay: 100ms;
+    font-size:42px;
+    text-shadow: 1px 2px 4px #ff8900;
+}
+#reg {
+    font-size: 38px;
+    float: right;
+    text-align: right;
+    text-shadow: transparent;
+    font-family: sans-serif;
+    
+}
+#sign {
+    font-size: 38px;
+    float: right;
+    text-align: center;
+    text-shadow: none;
+    font-family: sans-serif;
+    padding-right: 3px;
+}
